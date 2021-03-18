@@ -1,0 +1,50 @@
+.loginFormStyle {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.formInput {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  border-bottom-width: 2px;
+  padding: 15.5px 12px;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 4px;
+}
+
+.btnStyle {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background-color: #009688;
+  color: white;
+  font-weight: 700;
+  border-radius: 4px;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+  border: 0;
+  cursor: pointer;
+}
+
+.cancelBtn {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background-color: #e64021;
+  color: white;
+  font-weight: 700;
+  border-radius: 4px;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+  border: 0;
+  cursor: pointer;
+}

@@ -1,0 +1,62 @@
+.navBarContainer {
+  top: 0;
+  position: sticky;
+  z-index: 100;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 100%;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  background-color: #fff;
+}
+
+.toolBar {
+  min-height: 48px;
+  padding-left: 24px;
+  padding-right: 24px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.LogoDiv {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.spanLogo {
+  color: #009688;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.logOutBtn {
+  padding: 3px 9px;
+  border: 1px solid rgba(0, 91, 83, 0.5);
+  color: #005b53;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+  min-width: 50px;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.btnDiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
