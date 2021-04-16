@@ -1,5 +1,5 @@
 # CallMall
-##### Add Contacts, Create a PhoneBook, Schedule a Call with a personalized message -> Automate your Campaign
+#### Add Contacts, Create a PhoneBook, Schedule a Call with a personalized message -> Automate your Campaign
 
 ### Instructions
 - Clone the repository
